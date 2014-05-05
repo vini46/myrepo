@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 
-var mongolian = require('mongolian');
+var Mongolian = require('mongolian');
 var server, db;
 
 if(process.env.MONGOHQ_URL) {
